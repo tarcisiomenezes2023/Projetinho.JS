@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Age Checker</h1>
+    </header>
+    <section>
+        <div>
+            <p>Year of birth:
+            <input type="number" name="txtano" id="txtano">
+        </p>
+            <p>Sex:
+                <input type="radio" name="radsex" id="masc" checked>
+                <label for="masc">Male</label>
+                <input type="radio" name="radsex" id="fem">
+                <label for="fem">Female</label>
+            </p>
+            <p>
+                <input type="button" value="Verify" onclick="verificar()">
+            </p>
+        </div>
+        <div id="res">
+            Fill in the details above to see the result!
+        </div>
+    </section>
+    <footer>
+        By <a href="https://github.com/tarcisiomenezes2023" target="_blank">Tarcísio Menezes</a>
+    </footer>
+
+    <script src="script.js"></script>
+    
+    
+</body>
+</html>
